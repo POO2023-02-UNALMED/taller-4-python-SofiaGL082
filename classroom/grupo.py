@@ -1,9 +1,9 @@
 from classroom.asignatura import Asignatura
 
 class Grupo:
-    grado = None
+    grado = "Grado 12"
 
-    def __init__(self, grupo="grupo ordinado", asignaturas=None, estudiantes=None):
+    def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes=None):
         if asignatura is None:
             asignatura = []
         if estudiantes is None:
